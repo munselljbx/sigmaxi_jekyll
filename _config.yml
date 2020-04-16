@@ -18,25 +18,57 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Candidate RR Lyrae
+subtitle: Jeffrey Munsell
+email: jeffreymunsell@yahoo.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Sigma Xi 2020 Student Research Showcase site for Jeffrey Munsell. On the subject of random forest classifier-aided candidate selection of Miky Way Halo RR Lyrae in the NGVS data set.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://munselljbx.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: jekyllrb
+github_username:  munselljbx
 
 # Build settings
 theme: panthera-jekyll
-romote_theme: christianezeani/panthera-jekyll
+remote_theme: christianezeani/panthera-jekyll
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  
+#Panthera config
+menu:
+  - text: Video
+    link: /
+    icon: fas fa-video
 
+  - text: Abstract
+    link: /abstract
+    icon: far fa-file-alt
+    
+  - text: Slides
+    link: /slides
+    icon: far fa-file-powerpoint
 
+  - text: Poster
+    link: /poster
+    icon: ""
+    
+  - text: Discussion
+    link: /discussion
+    icon: ""
+    
+social_icons:
+  - name: email
+    link: mailto:jeffreymunsell@yahoo.com
+    icon: fas fa-envelope-square
+  - name: github
+    link: https://github.com/munselljbx
+    icon: fab fa-github-square
+  - name: bxsci
+    link: https://www.bxscience.edu/
+    icon: fas fa-atom
+    
+    
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
