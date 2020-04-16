@@ -36,6 +36,9 @@
                 {% if page.video %}
                 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iHdviZkM7S4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 {% endif %}
+                {% if page.slideshow %}
+                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQFOR-ANH3Yi5CYyVYTw5y3cDUWeQLyCf4BwP4Mmw29lWPUIbhijy7Ojrz1RNT6K3A2w2N6zwABcKTx/embed?start=false&loop=true&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                {% endif %}
                 {% if page.comments %}
                 <div id="disqus_thread"></div>
                 <script>
