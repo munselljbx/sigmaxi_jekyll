@@ -25,6 +25,11 @@
 //  --pan-overlay-display: none;
 }
 
+iframe {
+    height: 80%;
+    width: 100%;
+}
+
 .pan-layout-content {
     line-height: 200%;
 }
@@ -33,11 +38,14 @@
     padding-right: 6px;
 }
 
-iframe {
-    height:80%;
-    width:100%;
+.pan-layout-left__subtitle {
+    padding-top: 10px;
 }
 
-#paper_iframe {
-    height:93%;
+#paper-iframe {
+    height: 93%;
+}
+
+#no-text-transform {
+    text-transform: none;
 }
